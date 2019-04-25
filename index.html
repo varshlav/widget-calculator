@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+
+
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+     <body>
+        <h1> CALCULATOR </h1>
+     <div class="calculator">
+
+         <div class="result">
+             <p id="display">
+
+             </p>
+         </div>
+         <div class="keypad">
+             <div class="row">
+                <input type="button"  class="small-button" value="m+" />
+                <input type="button"  value="m-" />
+                 <input type="button"  value="mc" />
+                 <input type="button"  value="mc" />
+                 <input type="button" onclick="enterOperations('/')" value="/" />
+                 
+                 
+             </div>
+             <div class="row">
+                <input type="button" onclick="enterNumber(7)" value="7" />
+                <input type="button" onclick="enterNumber(8)" value="8" />
+                 <input type="button" class="button"  onclick="enterNumber(9)" value="9" />
+                 <input type="button" onclick="enterOperations('*')" value="x" />
+             </div>
+             <div class="row">
+                 <input type="button" onclick="enterNumber(4)" value="4" />
+                 <input type="button" onclick="enterNumber(5)" value="5" />
+                 <input type="button" onclick="enterNumber(6)" value="6" />
+                 <input type="button" onclick="enterOperations('-')" value="-" />
+             </div>
+             <div class="row">
+                <input type="button" onclick="enterNumber(1)" value="1" />
+                 <input type="button" onclick="enterNumber(2)" value="2" />
+                 <input type="button" onclick="enterNumber(3)" value="3" />
+                 <input type="button" onclick="enterOperations('+')" value="+" />
+             </div>
+
+        
+
+             <div class="row">
+                 <input type="button" onclick="enterNumber(0)" value="0" />
+                 <input type="button" onclick="enterNumber('.')" value="." />
+                 <input type="button" onclick="clearText()" value="C" />
+                 <input type="button" onclick="findresult()" value="=" />
+             </div>
+
+            
+
+
+
+         </div>
+     </div>
+
+     </body>
+	<script type="text/javascript" src="lavesh.js"></script>
+     
+     
+     </html>

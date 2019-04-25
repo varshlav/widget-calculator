@@ -1,0 +1,67 @@
+.calculator{
+
+    background-color: #c5c5c5;
+    border:15px solid #fea742;
+    width: 300px;
+    margin: 0 auto;
+    border-radius: 16px;
+}
+ h1{
+	text-align: center;
+	text-decoration: underline;;
+}
+
+.calculator .result p{
+	text-align: right;
+	padding: 20px 10px 10px 10px;
+	border-bottom: 15px solid #fea742;
+	margin: 0;
+	font-size: 25px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b5dcf2+0,b5dcf2+50,a8d6f1+51,a8d6f1+100 */
+background: #b5dcf2; /* Old browsers */
+background: -moz-linear-gradient(top, #b5dcf2 0%, #b5dcf2 50%, #a8d6f1 51%, #a8d6f1 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #b5dcf2 0%,#b5dcf2 50%,#a8d6f1 51%,#a8d6f1 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #b5dcf2 0%,#b5dcf2 50%,#a8d6f1 51%,#a8d6f1 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5dcf2', endColorstr='#a8d6f1',GradientType=0 ); /* IE6-9 */
+overflow: hidden;
+}
+
+.keypad .row:first-child input[type="button"]{
+  width: 40px;
+    height: 40px;
+	}
+
+input[type="button"]{
+  background-color: #fff; /* Green */
+  color: #757577;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 50%;
+  width: 60px;
+    height: 60px;
+      font-weight: bold;
+      -webkit-box-shadow: -1px 0px 13px -5px rgba(69,67,69,1);
+-moz-box-shadow: -1px 0px 13px -5px rgba(69,67,69,1);
+box-shadow: -1px 0px 13px -5px rgba(69,67,69,1);
+}
+div .row{
+	display: flex;
+	justify-content: space-around;
+	margin: 10px;
+}
+
+
+.keypad .row:not(:first-child) input[type="button"]{
+  font-size: 20px;
+    
+	}
+
+input[type="button"]:focus{
+	border:0px;
+	outline: -webkit-focus-ring-color auto 0px;
+
+}
+
+
