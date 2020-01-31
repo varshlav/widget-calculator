@@ -7,6 +7,4 @@ It is an interactive widget calculator that performs basic operations like Addit
 
 
 #Javascript ECMA 6
-To learn about ECMA 6, [Click] (http://www.ecma-international.org/ecma-262/6.0/).
-
-
+To learn about ECMA 6, [Click](http://www.ecma-international.org/ecma-262/6.0/).
